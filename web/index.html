@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lyrichist - Lyric Finder</title>
+        <script src="index.js" type="text/javascript"></script> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 align="center">Lyrichist</h1>
+        <p align="center">Find Your Favorite Song Lyric</p>
+        <div id="Body" align="center">
+            <div id="main">
+                <label>Singer</label><br/>
+                <input type="text" id="singer" placeholder="Enter Artist Name"/><br/><br/>
+
+                <label>Song</label><br/>
+                <input type="text" id="song" placeholder="Enter Song Name"/><br/><br/>
+
+                <input type="button" id="search" onclick="javascript:find()" value="search"/>
+            </div>
+            <div id="box">
+                <div id="lyric">
+                    <p class="lyr">Lyric :<br/><span id="lat"></span></p>
+                </div>
+            </div>
+        </div>    
+    </body>
+</html>

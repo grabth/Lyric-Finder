@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300&family=Merriweather+Sans:wght@600&display=swap');
+
+h1 {
+    font-family: "Merriweather Sans";
+}
+
+p, label, ::placeholder {
+    font-family: Jost;
+}
+
+#lyric {
+    text-align: center;
+}
+
+#singer, #song {
+    width: 300px;
+    height: 36px;
+    border-radius: 50px;
+    border: 2px solid #6f7178;
+    outline: none;
+}
+
+#search {
+    height: 36px;
+    border: 2px solid #6f7178;
+    font-size: medium;
+    border-radius: 50px;
+    width: 300px;
+}
